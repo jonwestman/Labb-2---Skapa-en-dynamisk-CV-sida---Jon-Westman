@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Stylesheet/style.css" rel="stylesheet" type="text/css"> <!--The link tag links to a stylesheet-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia"> <!--link to google fonts-->
+    <title>Portfolio</title>
+</head>
+<body>
+  <div id ="page-container-portfolio">
+    <div id="content-wrap">
+      <nav class="navbar">            
+        <a href="index.html" target="_self">Home</a>
+        <a href="curriculumVitae.html" target="_self">CV</a>
+        <a class="active" href="portfolio.html" target="_self">Portfolio</a>
+        <a href="aboutMe.html" target="_self">About</a>
+        <a href="contact.html" target="_self">Contact</a>            
+      </nav>   
+          <main class="portfolio" lang="sv">
+            <section class="portfolio-items">
+              <h3>Labb 1 - Skapa en databas</h3>
+              <img src="Picture(s)/Labb 1 - Skapa en databas.jpg" alt="Picure of Labb 1">
+              <figcaption>This is a picture of project nr 1</figcaption>
+              <button class="portfolio-button" type="button" aria-label="Learn more"><a href="#openModal1">Learn more</a></button>
+            </section>
+            <section class="portfolio-items">
+              <h3>Labb 2 - ER modellering & SQL</h3>
+              <img src="Picture(s)/Labb 2 - ER modellering och SQL.jpg" alt="Picure of Labb 2">
+              <figcaption>This is a picture of project nr 2</figcaption>
+              <button class="portfolio-button" type="button" aria-label="Learn more"><a href="#openModal2">Learn more</a></button>
+            </section>
+            <section class="portfolio-items">
+              <h3>Labb 3 - Anropa databas med SQL & ORM </h3>
+              <img src="Picture(s)/Labb 3 - Anropa databasen.jpg" alt="Picure of Labb 3">
+              <figcaption>This is a picture of project nr 3</figcaption>
+              <button class="portfolio-button" type="button" aria-label="Learn more"><a href="#openModal3">Learn more</a></button>
+            </section>
+            <section class="portfolio-items">
+              <h3>Labb 4 - Databasprojekt </h3>
+              <img src="Picture(s)/Individuellt databasprojekt.jpg" alt="Picure of Labb 4">
+              <figcaption>This is a picture of project nr 4</figcaption>
+              <button class="portfolio-button" type="button" aria-label="Learn more"><a href="#openModal4">Learn more</a></button>
+            </section>
+          </main>        
+        <div id="openModal1" class="modalDialog" lang="sv">
+          <div>
+            <a href="#close" title="Close" class="close">x</a><!--Modal close button-->
+            <h2>Modal Box</h2><!--Modal text-->
+            <p>Information om hur man skapar en databas.</p>
+          </div>
+        </div>      
+        <div id="openModal2" class="modalDialog">
+          <div>
+            <a href="#close" title="Close" class="close">x</a><!--Modal close button-->
+            <h2>Modal Box</h2><!--Modal text-->
+            <p>Information om ER modellering & SQL.</p>
+          </div>
+        </div> 
+        <div id="openModal3" class="modalDialog">
+          <div>
+            <a href="#close" title="Close" class="close">x</a><!--Modal close button-->
+            <h2>Modal Box</h2><!--Modal text-->
+            <p>Information om hur man anropar en datbas med SQL & ORM.</p>
+          </div>
+        </div> 
+        <div id="openModal4" class="modalDialog">
+          <div>
+            <a href="#close" title="Close" class="close">x</a><!--Modal close button-->
+            <h2>Modal Box</h2><!--Modal text-->
+            <p>Information om Individuellt Databasprojekt.</p>
+          </div>
+        </div> 
+    </div>
+    <footer class="footer">
+      <p>&copy; 2023 Jon Westman <a href="webbriktlinjer.html" target="_self" style="color:white">Webbriktlinjer</a></p>
+    </footer>
+  </div>
+</body>
+</html>
+
+  
